@@ -1,0 +1,43 @@
+.emoji-game-app {
+  width: 100%;
+  min-width: 400px;
+  margin: 0 auto;
+  background-image: linear-gradient(to bottom, #9796f0, #fbc7d4);
+  padding-bottom: 1px;
+}
+
+.emoji-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 45px 0px;
+}
+
+@media (min-width: 576px) {
+  .emoji-game-app {
+    width: 80%;
+  }
+}
+
+@media (min-width: 768px) {
+  .emoji-game-app {
+    width: 75%;
+  }
+  .emoji-card-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1000px) {
+  .emoji-game-app {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1250px) {
+  .emoji-card-container {
+    padding: 85px 0px;
+  }
+}

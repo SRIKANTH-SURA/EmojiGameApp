@@ -1,0 +1,95 @@
+.win-loss-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 30px;
+  background-color: #d1bde6ad;
+  padding: 30px;
+  border-radius: 30px;
+  border: 3px solid #ffffff55;
+}
+
+img.win-loss-img {
+  width: 100%;
+}
+
+.win-loss-img-container {
+  width: 200px;
+}
+
+.win-lose-content {
+  text-align: center;
+}
+
+.win-loss-text {
+  font-family: 'Roboto';
+  font-size: 34px;
+  color: #ffffff;
+}
+
+.win-loss-score-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.score-status {
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 700;
+  margin: 0;
+}
+
+.score-value {
+  font-size: 32px;
+  color: #6a59ff;
+  margin: 0;
+  font-weight: bold;
+}
+
+.paly-again-btn {
+  cursor: pointer;
+  outline: none;
+  padding: 13px 20px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #ffce27;
+  border: none;
+  border-radius: 25px;
+}
+
+@media (min-width: 768px) {
+  .win-loss-card {
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    align-items: center;
+    height: 400px;
+    margin: 120px auto;
+    padding: 0;
+    max-width: 560px;
+  }
+
+  .win-loss-img-container {
+    order: 1;
+    width: 250px;
+  }
+  .win-loss-text {
+    font-size: 50px;
+    margin: 25px 0px;
+  }
+
+  .score-status {
+    font-size: 30px;
+  }
+
+  .score-value {
+    font-size: 42px;
+  }
+
+  button.paly-again-btn {
+  }
+}

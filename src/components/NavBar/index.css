@@ -1,0 +1,60 @@
+.navbar-container {
+  background-color: #ffffff33;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  font-family: Roboto;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 600;
+  width: 93%;
+  margin: 0 auto;
+}
+
+.navbar-logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navbar-img {
+  width: 40px;
+}
+
+.navbar-title {
+  font-family: Roboto;
+  font-size: 22px;
+  color: #ffffff;
+}
+
+.score-container {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+}
+
+.current-score {
+  margin-right: 15px;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .emoji-game-app {
+    width: 90%;
+  }
+
+  nav.navbar {
+    width: 85%;
+  }
+}
+
+@media (min-width: 768px) {
+  .emoji-game-app {
+    width: 85%;
+  }
+
+  nav.navbar {
+    width: 75%;
+  }
+}

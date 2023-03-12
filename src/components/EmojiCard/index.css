@@ -1,0 +1,22 @@
+.emoji-card {
+  width: 130px;
+  padding: 20px;
+  border: 2px solid #ffffff30;
+  background-color: #ffffff33;
+  border-radius: 30px;
+}
+
+img.emoji-img {
+  width: 100%;
+}
+
+.emoji-list-item {
+  list-style-type: none;
+  margin: 10px;
+}
+
+.emoji-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
