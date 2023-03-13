@@ -33,6 +33,7 @@ class EmojiGame extends Component {
 
   onScoreIncrement = id => {
     const {selectedIdList} = this.state
+    const {emojisList} = this.props
 
     if (selectedIdList.includes(id)) {
       this.setState(prevState => ({
@@ -40,6 +41,11 @@ class EmojiGame extends Component {
         isGameInProgress: !prevState.isGameInProgress,
       }))
     } else {
+      if (selectedIdList.length === emojisList.length - 1) {
+        this.setState(prevState => ({
+          isGameInProgress: !prevState.isGameInProgress,
+        }))
+      }
       this.setState(prevState => ({
         selectedIdList: [...prevState.selectedIdList, id],
         score: prevState.score + 1,
