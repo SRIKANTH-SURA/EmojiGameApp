@@ -1,12 +1,4 @@
-.emoji-card {
-  width: 130px;
-  padding: 20px;
-  border: 2px solid #ffffff30;
-  background-color: #ffffff33;
-  border-radius: 30px;
-}
-
-img.emoji-img {
+.emoji-img {
   width: 100%;
 }
 
@@ -16,7 +8,10 @@ img.emoji-img {
 }
 
 .emoji-btn {
-  background-color: transparent;
-  border: none;
+  width: 130px;
+  padding: 20px;
+  border: 2px solid #ffffff30;
+  background-color: #ffffff33;
+  border-radius: 30px;
   cursor: pointer;
 }

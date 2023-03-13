@@ -1,4 +1,4 @@
-.win-loss-card {
+.win-lose-card {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,11 +10,11 @@
   border: 3px solid #ffffff55;
 }
 
-img.win-loss-img {
+.win-lose-img {
   width: 100%;
 }
 
-.win-loss-img-container {
+.win-lose-img-container {
   width: 200px;
 }
 
@@ -22,13 +22,13 @@ img.win-loss-img {
   text-align: center;
 }
 
-.win-loss-text {
+.win-lose-text {
   font-family: 'Roboto';
   font-size: 34px;
   color: #ffffff;
 }
 
-.win-loss-score-container {
+.win-lose-score-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -48,6 +48,7 @@ img.win-loss-img {
   color: #6a59ff;
   margin: 0;
   font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .paly-again-btn {
@@ -62,7 +63,7 @@ img.win-loss-img {
 }
 
 @media (min-width: 768px) {
-  .win-loss-card {
+  .win-lose-card {
     flex-direction: row;
     justify-content: space-evenly;
     border-radius: 20px;
@@ -73,11 +74,11 @@ img.win-loss-img {
     max-width: 560px;
   }
 
-  .win-loss-img-container {
+  .win-lose-img-container {
     order: 1;
     width: 250px;
   }
-  .win-loss-text {
+  .win-lose-text {
     font-size: 50px;
     margin: 25px 0px;
   }
@@ -88,8 +89,5 @@ img.win-loss-img {
 
   .score-value {
     font-size: 42px;
-  }
-
-  button.paly-again-btn {
   }
 }
